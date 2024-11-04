@@ -1,0 +1,16 @@
+{
+  "name": "website-scanner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scanner.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ssl-checker": "^2.0.8",
+    "node-port-scanner": "^3.0.1"
+  }
+}
